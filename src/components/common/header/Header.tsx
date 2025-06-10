@@ -34,19 +34,35 @@ const Header = () => {
             </Nav.Link>
             <Nav.Link 
               as={Link} 
-              to="/products" 
+              to="/categories" 
               className="mx-2" 
               style={{ color: 'white', fontWeight: '500' }}
             >
-              Products
+              Categories
             </Nav.Link>
             <Nav.Link 
               as={Link} 
-              to="/cart" 
+              to="/about" 
               className="mx-2" 
               style={{ color: 'white', fontWeight: '500' }}
             >
-              Cart
+              About
+            </Nav.Link>
+            <Nav.Link 
+              as={Link} 
+              to="/login" 
+              className="mx-2" 
+              style={{ color: 'white', fontWeight: '500' }}
+            >
+              Login
+            </Nav.Link>
+            <Nav.Link 
+              as={Link} 
+              to="/register" 
+              className="mx-2" 
+              style={{ color: 'white', fontWeight: '500' }}
+            >
+              Register
             </Nav.Link>
           </Nav>
           <Button 
